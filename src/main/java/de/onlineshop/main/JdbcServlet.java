@@ -40,7 +40,7 @@ public class JdbcServlet extends HttpServlet {
         out.println(
                 "<br>driver: " + p.getProperty("driver"));
         out.println(
-                "<br>url: " + p.getProperty("url"));
+                "<br>Your url: " + p.getProperty("url"));
         out.println(
                 "<br>username: " + p.getProperty("username"));
         out.println(
